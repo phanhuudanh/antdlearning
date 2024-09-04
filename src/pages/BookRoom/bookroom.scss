@@ -1,0 +1,26 @@
+.bookroom{
+    margin: 0 15px;
+    h2{
+        text-align: center;
+    }
+    span{
+        font-size: 15px;
+    }
+}
+
+.service__span{
+    font-weight:480;
+    font-size: 20px;
+    display:block;
+    width: 100%;
+    margin-bottom:5px;
+}
+.date__span{
+    @extend .service__span;
+}
+.gift__span{
+    @extend .service__span;
+}
+.time__span{
+    @extend .service__span;
+}

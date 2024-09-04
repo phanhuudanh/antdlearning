@@ -1,0 +1,58 @@
+.metrics{
+    background-color: #F2F4F6;
+    padding: 10px;
+    padding-bottom: 0;
+    &__box{
+        background-color: white;
+        padding:10px 20px;
+        border-radius: 1px solid gray;
+        display:flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+    &__icon{
+        background-color: #F2F4F6;
+        font-size: 22px;
+        padding:5px 10px;
+        border-radius: 50%;
+        margin-right:5px;
+    }
+    &__number{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    &__desc{
+        color:#ddd
+    }
+
+}
+.chart{
+    background-color: #F2F4F6;
+    padding:10px;
+    padding-bottom: 0;
+    &__metrics{
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+    &__img{
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+.productchart{
+    background-color: #F2F4F6;
+    padding:10px;
+    &__metrics{
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+    &__img{
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
